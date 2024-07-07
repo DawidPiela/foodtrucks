@@ -51,6 +51,7 @@ San Francisco's food truck open dataset is [located here](https://data.sfgov.org
  - added star rating system based on localStorage so users can vote for future reference
 
 ## TODO list
+ - prepare build for vercel
  - add tests
  - add more types to backend
  - add database to store food data and rating system
