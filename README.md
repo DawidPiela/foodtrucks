@@ -34,3 +34,23 @@ Your assignment is to make it possible for our teams to do something interesting
 
 This is a freeform assignment. You can write a web API that returns a set of food trucks. You can write a web frontend that visualizes the nearby food trucks for a given place. You can create a CLI that lets us get the names of all the taco trucks in the city. You can create system that spits out a container with a placeholder webpage featuring the name of each food truck to help their marketing efforts. You're not limited by these ideas at all, but hopefully those are enough help spark your own creativity.
 San Francisco's food truck open dataset is [located here](https://data.sfgov.org/Economy-and-Community/Mobile-Food-Facility-Permit/rqzj-sfat/data) and there is an endpoint with a [CSV dump of the latest data here](https://data.sfgov.org/api/views/rqzj-sfat/rows.csv). We've also included a copy of the data in this repo as well.
+
+
+## Run locally
+ - npm install
+ - npm start
+ - app is ready on http://127.0.0.1:5173/
+
+## Stuff done
+ - added boilerplate with typescript, express, vite, react
+ - added parser to parse csv to json
+ - added basic GET enpoint to fetch food data
+ - added searchbar to search through food places names
+ - added basic list to view all the places
+ - added basic styling to make it look prettier
+ - added star rating system based on localStorage so users can vote for future reference
+
+## TODO list
+ - add tests
+ - add more types to backend
+ - add database to store food data and rating system
